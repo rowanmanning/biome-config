@@ -1,0 +1,31 @@
+{
+  "name": "@rowanmanning/biome-config",
+  "version": "0.0.0",
+  "description": "Shared Biome linting/formatting configurations for my projects",
+  "keywords": [
+    "biome"
+  ],
+  "author": "Rowan Manning (https://rowanmanning.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanmanning/biome-config.git"
+  },
+  "homepage": "https://github.com/rowanmanning/biome-config",
+  "bugs": "https://github.com/rowanmanning/biome-config/issues",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  },
+  "scripts": {
+    "verify": "npm run verify:biome",
+    "verify:biome": "biome check",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.1",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
+  },
+  "main": "config.json"
+}
