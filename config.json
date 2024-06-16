@@ -11,6 +11,7 @@
 	"linter": {
 		"rules": {
 			"complexity": {
+				"noExcessiveNestedTestSuites": "off",
 				"noVoid": "error"
 			},
 			"correctness": {
@@ -25,6 +26,9 @@
 				"noUndeclaredDependencies": "error",
 				"useThrowOnlyError": "error",
 				"useTopLevelRegex": "warn"
+			},
+			"performance": {
+				"noDelete": "off"
 			},
 			"style": {
 				"useFilenamingConvention": {
