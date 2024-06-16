@@ -1,0 +1,64 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": [".nyc_output", "coverage", "**/package.json", "**/package-lock.json"]
+	},
+	"formatter": {
+		"indentStyle": "tab",
+		"indentWidth": 4,
+		"lineWidth": 100
+	},
+	"linter": {
+		"rules": {
+			"complexity": {
+				"noVoid": "error"
+			},
+			"correctness": {
+				"noNewSymbol": "error",
+				"noUndeclaredVariables": "error",
+				"noUnusedImports": "error",
+				"noUnusedVariables": "error"
+			},
+			"nursery": {
+				"noConsole": "warn",
+				"noDuplicateJsonKeys": "error",
+				"noUndeclaredDependencies": "error",
+				"useThrowOnlyError": "error",
+				"useTopLevelRegex": "warn"
+			},
+			"style": {
+				"useFilenamingConvention": {
+					"level": "error",
+					"options": {
+						"filenameCases": ["kebab-case"]
+					}
+				},
+				"useShorthandArrayType": "warn"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "error",
+				"noSkippedTests": "warn",
+				"noRedundantUseStrict": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"jsxQuoteStyle": "double",
+			"trailingCommas": "none"
+		}
+	},
+	"overrides": [
+		{
+			"include": ["example/**/*"],
+			"linter": {
+				"rules": {
+					"nursery": {
+						"noConsole": "off"
+					}
+				}
+			}
+		}
+	]
+}
