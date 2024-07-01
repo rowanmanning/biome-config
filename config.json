@@ -12,6 +12,7 @@
 		"rules": {
 			"complexity": {
 				"noExcessiveNestedTestSuites": "off",
+				"noThisInStatic": "off",
 				"noVoid": "error"
 			},
 			"correctness": {
