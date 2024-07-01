@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/rowanmanning/biome-config/compare/v1.2.0...v1.3.0) (2024-07-01)
+
+
+### Features
+
+* disable the `noThisInStatic` rule ([9d6c867](https://github.com/rowanmanning/biome-config/commit/9d6c867eee48d2249b20b4dc0e11ed90dc8b15cb))
+
+
+### Documentation Changes
+
+* add a README ([925e56a](https://github.com/rowanmanning/biome-config/commit/925e56a83bdb41dfc64d9da2773d93563530d2ff))
+
 ## [1.2.0](https://github.com/rowanmanning/biome-config/compare/v1.1.0...v1.2.0) (2024-06-16)
 
 
