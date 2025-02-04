@@ -17,19 +17,14 @@
 			},
 			"correctness": {
 				"noNewSymbol": "error",
+				"noUndeclaredDependencies": "error",
 				"noUndeclaredVariables": "error",
 				"noUnusedImports": "error",
 				"noUnusedVariables": "error"
 			},
-			"nursery": {
-				"noConsole": "warn",
-				"noDuplicateJsonKeys": "error",
-				"noUndeclaredDependencies": "error",
-				"useThrowOnlyError": "error",
-				"useTopLevelRegex": "warn"
-			},
 			"performance": {
-				"noDelete": "off"
+				"noDelete": "off",
+				"useTopLevelRegex": "warn"
 			},
 			"style": {
 				"useFilenamingConvention": {
@@ -38,10 +33,13 @@
 						"filenameCases": ["kebab-case"]
 					}
 				},
-				"useShorthandArrayType": "warn"
+				"useShorthandArrayType": "warn",
+				"useThrowOnlyError": "error"
 			},
 			"suspicious": {
 				"noAssignInExpressions": "error",
+				"noConsole": "warn",
+				"noDuplicateObjectKeys": "error",
 				"noSkippedTests": "warn",
 				"noRedundantUseStrict": "off"
 			}
@@ -59,7 +57,7 @@
 			"include": ["example/**/*"],
 			"linter": {
 				"rules": {
-					"nursery": {
+					"suspicious": {
 						"noConsole": "off"
 					}
 				}
