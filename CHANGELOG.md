@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/rowanmanning/biome-config/compare/v1.3.1...v1.4.0) (2025-02-04)
+
+
+### Features
+
+* migrate to Biome v1.9.4 ([5f85d7f](https://github.com/rowanmanning/biome-config/commit/5f85d7f6bc8a7def30e7b95b3d3748d214fc13f5))
+
+
+### Bug Fixes
+
+* install biome as a dependency ([14fee89](https://github.com/rowanmanning/biome-config/commit/14fee89c44981697fea90ff9b86b53d432ea64a8))
+
 ## [1.3.1](https://github.com/rowanmanning/biome-config/compare/v1.3.0...v1.3.1) (2024-08-09)
 
 
