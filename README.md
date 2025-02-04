@@ -18,7 +18,7 @@ This library requires the following to run:
 
 ## Usage
 
-Install with [npm](https://www.npmjs.com/) (`biome` will be installed as a peer dependency):
+Install with [npm](https://www.npmjs.com/) (`biome` will be included):
 
 ```sh
 npm install --save-dev @rowanmanning/biome-config

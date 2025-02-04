@@ -21,7 +21,7 @@
     "verify:biome": "biome check",
     "prepare": "husky || true"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@biomejs/biome": "^1.8.3"
   },
   "devDependencies": {
