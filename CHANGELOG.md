@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/rowanmanning/biome-config/compare/v1.4.0...v2.0.0) (2025-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js 18
+
+### Miscellaneous Chores
+
+* drop Node.js 18 ([26d4a90](https://github.com/rowanmanning/biome-config/commit/26d4a90b752707f017b3be4f5b10cea90fc5ce0e))
+
 ## [1.4.0](https://github.com/rowanmanning/biome-config/compare/v1.3.1...v1.4.0) (2025-02-04)
 
 
