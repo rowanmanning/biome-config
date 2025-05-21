@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rowanmanning/biome-config/compare/v2.0.0...v2.1.0) (2025-05-21)
+
+
+### Features
+
+* add Node.js 24 support ([481497b](https://github.com/rowanmanning/biome-config/commit/481497bec9f1933915a6e79a6f3b6c4d66088955))
+
 ## [2.0.0](https://github.com/rowanmanning/biome-config/compare/v1.4.0...v2.0.0) (2025-03-04)
 
 
