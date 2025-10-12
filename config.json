@@ -1,7 +1,13 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"ignore": [".nyc_output", "coverage", "**/package.json", "**/package-lock.json"]
+		"includes": [
+			"**",
+			"!**/.nyc_output",
+			"!**/coverage",
+			"!**/package.json",
+			"!**/package-lock.json"
+		]
 	},
 	"formatter": {
 		"indentStyle": "tab",
@@ -16,11 +22,11 @@
 				"noVoid": "error"
 			},
 			"correctness": {
-				"noNewSymbol": "error",
 				"noUndeclaredDependencies": "error",
 				"noUndeclaredVariables": "error",
 				"noUnusedImports": "error",
-				"noUnusedVariables": "error"
+				"noUnusedVariables": "error",
+				"noInvalidBuiltinInstantiation": "error"
 			},
 			"performance": {
 				"noDelete": "off",
@@ -33,8 +39,11 @@
 						"filenameCases": ["kebab-case"]
 					}
 				},
-				"useShorthandArrayType": "warn",
-				"useThrowOnlyError": "error"
+				"useThrowOnlyError": "error",
+				"useConsistentArrayType": {
+					"level": "warn",
+					"options": { "syntax": "shorthand" }
+				}
 			},
 			"suspicious": {
 				"noAssignInExpressions": "error",
@@ -54,7 +63,7 @@
 	},
 	"overrides": [
 		{
-			"include": ["example/**/*"],
+			"includes": ["**/example/**/*"],
 			"linter": {
 				"rules": {
 					"suspicious": {
