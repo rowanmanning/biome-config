@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/rowanmanning/biome-config/compare/v2.1.0...v3.0.0) (2025-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to Biome v2
+
+### Miscellaneous Chores
+
+* migrate to Biome v2 ([3f15b22](https://github.com/rowanmanning/biome-config/commit/3f15b224f750e593b8c927a69acc9905f10c58bd))
+
 ## [2.1.0](https://github.com/rowanmanning/biome-config/compare/v2.0.0...v2.1.0) (2025-05-21)
 
 
