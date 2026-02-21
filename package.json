@@ -1,6 +1,6 @@
 {
   "name": "@rowanmanning/biome-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Shared Biome linting/formatting configurations for my projects",
   "keywords": [
     "biome"
