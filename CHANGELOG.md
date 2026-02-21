@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/rowanmanning/biome-config/compare/v3.0.0...v3.0.1) (2026-02-21)
+
+
+### Bug Fixes
+
+* bump @biomejs/biome from 2.2.5 to 2.3.13 ([618b8d7](https://github.com/rowanmanning/biome-config/commit/618b8d71acdfea5db00b808d85d96d5c471416bf))
+
 ## [3.0.0](https://github.com/rowanmanning/biome-config/compare/v2.1.0...v3.0.0) (2025-10-12)
 
 
