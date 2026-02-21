@@ -5,6 +5,7 @@ Shared [Biome](https://biomejs.dev/) linting/formatting configurations for my pr
 
 * [Requirements](#requirements)
 * [Usage](#usage)
+* [Migration](#migration)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -13,7 +14,7 @@ Shared [Biome](https://biomejs.dev/) linting/formatting configurations for my pr
 
 This library requires the following to run:
 
-  * [Node.js](https://nodejs.org/) 20+
+  * [Node.js](https://nodejs.org/) 22+
 
 
 ## Usage
@@ -32,6 +33,11 @@ Add this to your `biome.json` file:
     "extends": ["./node_modules/@rowanmanning/biome-config/config.json"]
 }
 ```
+
+
+## Migration
+
+A new major version of this project is released if breaking changes are introduced. We maintain a [migration guide](docs/migration.md) to help users migrate between these versions.
 
 
 ## Contributing
