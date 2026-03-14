@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/rowanmanning/biome-config/compare/v3.0.1...v3.1.0) (2026-03-14)
+
+
+### Features
+
+* exclude dist folder ([a905aa0](https://github.com/rowanmanning/biome-config/commit/a905aa076a0d6d92f7a6578fabb99dcde413246e))
+
 ## [3.0.1](https://github.com/rowanmanning/biome-config/compare/v3.0.0...v3.0.1) (2026-02-21)
 
 
