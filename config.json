@@ -6,7 +6,8 @@
 			"!**/.nyc_output",
 			"!**/coverage",
 			"!**/package.json",
-			"!**/package-lock.json"
+			"!**/package-lock.json",
+			"!dist"
 		]
 	},
 	"formatter": {
