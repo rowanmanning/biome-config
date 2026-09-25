@@ -68,10 +68,10 @@ feat!: add a breaking feature
 
 We use [commitlint](https://commitlint.js.org/) to enforce these commit messages.
 
-### Linting
+### Verifying
 
 This project is linted using [Biome](https://biomejs.dev/). Please keep to the existing style. Biome errors will fail the build on any PRs:
 
-```
-npm run verify:biome
+```sh
+npm run verify
 ```
