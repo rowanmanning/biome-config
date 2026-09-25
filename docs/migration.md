@@ -5,6 +5,7 @@ This document outlines how to migrate to new major breaking versions of this lib
 
 * [Migrating from v3 to v4](#migrating-from-v3-to-v4)
   * [Dropped Node.js v20 support](#dropped-nodejs-v20-support)
+  * [Switched to VCS ignoring](#switched-to-vcs-ignoring)
 * [Migrating from v2 to v3](#migrating-from-v2-to-v3)
   * [Dropped Biome v1 support](#dropped-biome-v1-support)
 * [Migrating from v1 to v2](#migrating-from-v1-to-v2)
@@ -15,6 +16,10 @@ This document outlines how to migrate to new major breaking versions of this lib
 ### Dropped Node.js v20 support
 
 The library now only supports Node.js v22 and above.
+
+## Switched to VCS ignoring
+
+The config now ignores files via `.gitignore` rather than having a hard-coded list.
 
 ## Migrating from v2 to v3
 
