@@ -1,5 +1,28 @@
 # Changelog
 
+## [4.0.0](https://github.com/rowanmanning/biome-config/compare/v3.1.0...v4.0.0) (2026-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* switch to vcs config for ignores
+* drop Node.js 20
+
+### Features
+
+* add Node.js 26 support ([8443868](https://github.com/rowanmanning/biome-config/commit/84438685e522cf702332c88cdc3ca8da95de9572))
+
+
+### Bug Fixes
+
+* switch to vcs config for ignores ([8f39ab7](https://github.com/rowanmanning/biome-config/commit/8f39ab7bd7a88db1274802e46405fa7c5494ff22))
+* update Biome from 2.2.5 to 2.5.14 ([b286ff2](https://github.com/rowanmanning/biome-config/commit/b286ff2421af91a0502667888d85da26e7cfe374))
+
+
+### Miscellaneous Chores
+
+* drop Node.js 20 ([6ca108e](https://github.com/rowanmanning/biome-config/commit/6ca108ec5db933f916012c13103ae2c8edc6bef8))
+
 ## [3.1.0](https://github.com/rowanmanning/biome-config/compare/v3.0.1...v3.1.0) (2026-03-14)
 
 
