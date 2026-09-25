@@ -17,8 +17,7 @@
     "node": "22.x || 24.x || 26.x"
   },
   "scripts": {
-    "verify": "npm run verify:biome",
-    "verify:biome": "biome check",
+    "verify": "biome check",
     "prepare": "husky || true"
   },
   "dependencies": {
