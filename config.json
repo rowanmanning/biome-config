@@ -1,14 +1,7 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"files": {
-		"includes": [
-			"**",
-			"!**/.nyc_output",
-			"!**/coverage",
-			"!**/package.json",
-			"!**/package-lock.json",
-			"!dist"
-		]
+		"includes": ["**", "!**/package.json", "!**/package-lock.json"]
 	},
 	"formatter": {
 		"indentStyle": "tab",
@@ -73,5 +66,10 @@
 				}
 			}
 		}
-	]
+	],
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	}
 }
