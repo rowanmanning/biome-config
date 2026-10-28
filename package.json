@@ -21,7 +21,7 @@
     "prepare": "husky || true"
   },
   "dependencies": {
-    "@biomejs/biome": "^2.5.14"
+    "@biomejs/biome": "^2.6.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
